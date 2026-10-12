@@ -1,0 +1,78 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 1.5em;
+	background-image: url(../img/bg.jpg);
+}
+#divContainer {
+	background-color: #FFFFFF;
+	margin-right: auto;
+	margin-left: auto;
+	width: 800px;
+}
+#divMenu {
+	text-align: center;
+}
+
+
+a {
+	color: #3458AD;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:visited {
+	color: #333333;
+}
+#divContent {
+	padding: 20px;
+	width: 560px;
+	color: #003366;
+	text-align: justify;
+	float: left;
+}
+#divFooter {
+	text-align: center;
+	clear: both;
+	font-size: 0.8em;
+	color: #666666;
+}
+#divRightContent {
+	float: right;
+	width: 199px;
+	margin-top: 30px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #CCCCCC;
+}
+
+#divContent a {
+	color: #3458AD;
+	text-decoration: underline;
+}
+#divContent a:hover {
+	text-decoration: none;
+}
+
+h1 {
+	font-variant: normal;
+	color: #333333;
+	font-size: 18px;
+	font-family: "Lucida Calligraphy";
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #333333;
+}
+
+h2 {
+	font-variant: normal;
+	color: #333333;
+	font-size: 18px;
+	font-family: "Lucida Calligraphy";
+}

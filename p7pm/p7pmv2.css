@@ -1,0 +1,81 @@
+/* 
+  -----------------------------------
+  PopMenu Magic Style Sheet
+  by Project Seven Development
+  www.projectseven.com
+  Menu Type: Vertical
+  Style Theme:2 -Mac OSX Style
+  -----------------------------------
+*/
+#p7PMnav {
+	margin: 0;
+	padding:0;
+	font-size: 0.8em;
+}
+#p7PMnav li {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+#p7PMnav ul {
+	margin: 0;
+	padding: 0;
+	z-index: 99999;
+}
+#p7PMnav a {
+	display: block;
+	text-decoration: none;
+	color: #666666;
+	line-height:1;
+	padding-top: 7px;
+	padding-right: 10px;
+	padding-bottom: 7px;
+	padding-left: 10px;
+}
+#p7PMnav ul a {
+	border: 0;
+}
+#p7PMnav a:hover, #p7PMnav a:active, #p7PMnav a:focus {
+	background-color: #7792C4;
+	color: #D5DCEE;
+}
+
+/* ------ the current page marker style ------ */
+#p7PMnav .p7PMmark {
+	color: #333333;
+	font-weight: bold;
+}
+/* ------ the trigger link styles ------- */
+
+/*the normal trigger link */
+#p7PMnav .p7PMtrg {
+	background-image:  url(img/p7PM_medium_east.gif);
+	background-repeat:	no-repeat;
+	background-position: right;
+	color: #666666;
+}
+/* the active trigger link style */
+#p7PMnav .p7PMon {
+	background-color: #7792C4;
+	color: #D5DCEE;
+	font-weight: 400;
+}
+
+/*the submenu classes */
+
+#p7PMnav .p7PMhide {
+	left: -9000px;
+	border: 0;
+}
+#p7PMnav .p7PMshow {
+	left: auto;
+}
+/* Top level menu width */
+#p7PMnav {
+	width: 180px;
+}
+
+/* 2nd and subsequent Submenu widths */
+#p7PMnav ul {
+	width: 180px;
+}
